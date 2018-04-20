@@ -11,7 +11,6 @@ ENCRYPTION SCRIPT
 
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes 
 from cryptography.hazmat.backends import default_backend
-import numpy as np
 import os
 
 iv = os.urandom(16)
